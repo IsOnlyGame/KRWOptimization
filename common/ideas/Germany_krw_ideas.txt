@@ -1,0 +1,16 @@
+ideas = {
+
+
+	
+	country = {
+		
+		GER_imperial_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_imperial_spirit"
+			}
+			modifier = {
+				compliance_growth_on_our_occupied_states = -0.25
+				resistance_growth_on_our_occupied_states = 0.25
+			}
+		}
+	}
+}
